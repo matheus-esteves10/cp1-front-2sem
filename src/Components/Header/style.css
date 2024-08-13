@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+header{
+    background-color: #0E1015;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 128px;
+    /* padding: 0px, 32px, 0px, 32px;
+    gap: 32px; */
+}
+
+header img{
+    height: 80px;
+    width: auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+.toggle {
+    position: relative;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  
+  .bars {
+    width: 80%;
+    height: 4px;
+    background-color: rgb(253, 255, 243);
+    border-radius: 5px;
+  }
+header p {
+    margin-left: 5px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500px;
+}
+
+.search{
+    width: 250px; 
+    height: 30px; 
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    
+}
+
+.login{
+    background-color: #D5224E;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: large; 
+    padding: 15px 60px;
+    font-family: "Krona One", sans-serif; 
+}
+
+.search-bar {
+    background-color: #1B1D23;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+  }
+  
+  .search-bar input {
+    background-color: #1B1D23;
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .lupa{
+    height: 20px;
+    margin: 0 25px 0 10px;
+  }
