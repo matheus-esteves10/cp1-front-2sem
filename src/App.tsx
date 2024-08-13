@@ -1,6 +1,7 @@
 import Header from './Components/Header';
 import './App.css'
 import Footer from './Components/Footer';
+import Home from './Home';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <div className='conteudo'>
         <Header/>
+        <Home></Home>
         <Footer></Footer>
       </div>
     </>

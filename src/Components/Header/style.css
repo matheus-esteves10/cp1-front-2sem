@@ -87,6 +87,7 @@ header p {
     border: none;
     outline: none;
     margin-right: 10px;
+    color: white;
   }
   
   .search-bar button {
