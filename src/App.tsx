@@ -1,11 +1,15 @@
 import Header from './Components/Header';
 import './App.css'
+import Footer from './Components/Footer';
 
 function App() {
 
   return (
     <>
-      <Header/>
+      <div className='conteudo'>
+        <Header/>
+        <Footer></Footer>
+      </div>
     </>
   )
 }

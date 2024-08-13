@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Krona+One&display=swap');
+
+footer{
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.vector{
+    width: 300px;
+    height: 115px;
+}
+
+.listas-geral{
+    display: flex;
+}
+
+.listas-top{
+    color: #7E8087;
+    margin-bottom: 4px;
+    font-family: "Krona One", sans-serif;
+    
+}
+
+.listas {
+    list-style-type: none;
+    color: white;
+    padding: 0 20px;
+    font-family: "Karla", sans-serif;
+}
+.listas-ultima {
+    list-style-type: none;
+    color: white;
+    margin-left: 20px;
+    padding: 0 0px;
+    font-family: "Karla", sans-serif;
+}
