@@ -3,6 +3,8 @@ import Gow1 from '../assets/img/gow-i1.png';
 import Gow2 from '../assets/img/gow-i2.png';
 import Estrela1 from '../assets/img/estrela1.png';
 import Estrela2 from '../assets/img/estrela2.png';
+import Like from '../assets/img/Like.png'
+import Deslike from '../assets/img/Deslike.png'
 
 const Home = () => {
     return(
@@ -63,7 +65,9 @@ const Home = () => {
                         If you're new to the series, I recommend you start with God of War (2018) If you have the dedication, you could always start from the very first one. They're all on the PS+ collection. 
                         I still have yet to beat this newest entry, but I wanted to spread the good word as soon as possible: Ragnarök is here and it is beautiful.</p>
                 </div>
-                <div className='likes'></div>
+                <div className='likes'>
+                    
+                </div>
             </section>
 
             <section className='coments'>
