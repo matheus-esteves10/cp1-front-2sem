@@ -2,14 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #0E1015;
+  
 
 }
 
+body{
+  background-color: #0E1015;
+}
+
 #root{
-  width: 90%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  margin: 0 100px;
+  
 }

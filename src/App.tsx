@@ -1,7 +1,8 @@
 import Header from './Components/Header';
 import './App.css'
 import Footer from './Components/Footer';
-import Home from './Home';
+import Home from './Game';
+import Coments from './Coments';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <div className='conteudo'>
         <Header/>
         <Home></Home>
+        <Coments></Coments>
         <Footer></Footer>
       </div>
     </>

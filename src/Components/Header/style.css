@@ -10,6 +10,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 128px;
+    margin: 0 100px;
 }
 
 header img{
