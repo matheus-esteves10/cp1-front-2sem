@@ -5,8 +5,6 @@
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     margin: 0 100px;
     width: 90%;
 }
@@ -143,5 +141,16 @@
 
 .nota-max{
     color: #FFFFFF80;
+}
+
+@media screen and (max-width:1274px){
+
+    .geral-coments {
+        width: 80%;
+    }
+
+    .likes{
+        margin-right: 40px;
+    }
 }
  

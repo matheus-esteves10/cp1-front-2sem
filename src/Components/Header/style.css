@@ -71,6 +71,7 @@ header p {
     font-family: "Krona One", sans-serif; 
     border: none; 
     border-radius: 8px; 
+    
   }
 
 .search-bar {
@@ -102,3 +103,27 @@ header p {
     height: 20px;
     margin: 0 25px 0 10px;
   }
+
+  @media screen and (max-width:1386px) {
+    header{
+      width: 80%;
+    }
+
+  }
+  
+  @media screen and (max-width:949px) {
+
+    header img{
+      width: 20%;
+      height: auto;
+      
+    }
+
+    .search{
+      width: 100px;
+    }
+
+    
+  
+  }
+

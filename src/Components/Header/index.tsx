@@ -6,9 +6,9 @@ import './style.css';
 const Header: React.FC = () => {
   return (
     <header>
-      <div>
+      
         <img src={Vector} alt="Logo" />
-      </div>
+      
       <div className='menu'> 
         
         <label className='toggle'>

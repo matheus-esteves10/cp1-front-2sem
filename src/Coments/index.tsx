@@ -1,6 +1,5 @@
 import './style.css';
 import Estrela1 from '../assets/img/estrela1.png';
-import Estrela2 from '../assets/img/estrela2.png';
 import Like from '../assets/img/Like.png'
 import Deslike from '../assets/img/Deslike.png'
 
